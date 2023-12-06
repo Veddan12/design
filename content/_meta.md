@@ -4,5 +4,11 @@ Tagline: Veddan (~veda23)
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Veddan12/design
-      icon: github
+      icon: fab fa-github
+    - title: Link till student page.
+      url: http://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio
+      icon: fas fa-home
+    - title: Link till instagram account.
+      url: https://www.instagram.com/veddan.anardev/
+      icon: fab fa-instagram
 ---

@@ -3,8 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-Välkommen till min portfolio sida
-==========================
+## Välkommen till min portfolio sida
 
 <p>Veddan är mitt smeknamn, trevligt att träffas.</p>
 <p>
