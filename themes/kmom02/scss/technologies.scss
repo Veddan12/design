@@ -1,0 +1,91 @@
+.landingpage {
+    display: grid;
+    gap: 1em 2em;
+    width: 750px;
+    height: 400px;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(5, auto);
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF2171;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px #FF2171;
+    font-size: 20px;
+}
+
+.landingpage .HTML {
+    grid-column: span 2;
+}
+
+.landingpage .JavaScript {
+    grid-column: span 2;
+}
+
+.landingpage .SQLite {
+    grid-column: span 2;
+}
+
+.landingpage .Python {
+    grid-column: span 3;
+}
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    width: 30%;
+}
+
+.tech-content {
+    width: 60%;
+}
+
+.tech-menu ul {
+    margin: 6px;
+}
+
+@media (max-width: 767px) {
+    .landingpage .CSS, .PHP, .Git {
+        grid-column: span 3;
+    }
+    .landingpage .HTML,
+    .landingpage .JavaScript,
+    .landingpage .SQLite {
+        grid-column: span 3;
+    }
+    .landingpage h1 {
+        grid-column: span 3;
+    }
+}
+
+@media (max-width: 767px) {
+    .single-technology {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .tech-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .tech-content {
+        width: 100%;
+    }
+}

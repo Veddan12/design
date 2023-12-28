@@ -1,0 +1,55 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="single-technology">
+            <div class="tech-menu">
+                <h2>Menu</h2>
+                <div class="tech-post">
+                    <ul>
+                        <li><a href="https://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio/technology/sub/css">CSS</a></li>
+                    </ul>
+                    </div>
+                    <div class="tech-post">
+                    <ul>
+                        <li><a href="https://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio/technology/sub/html">HTML</a></li>
+                    </ul>
+                    </div>
+                    <div class="tech-post">
+                    <ul>
+                        <li><a href="https://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio/technology/sub/javascript">JavaScript</a></li>
+                    </ul>
+                    </div>
+                    <div class="tech-post">
+                    <ul>
+                        <li><a href="https://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio/technology/sub/php">PHP</a></li>
+                    </ul>
+                    </div>
+                    <div class="tech-post">
+                    <ul>
+                        <li><a href="https://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio/technology/sub/python">Python</a></li>
+                    </ul>
+                    </div>
+                    <div class="tech-post">
+                    <ul>
+                        <li><a href="https://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio/technology/sub/git">Git</a></li>
+                    </ul>
+                    </div>
+                    <div class="tech-post">
+                    <ul>
+                        <li><a href="https://www.student.bth.se/~veda23/dbwebb-kurser/design/me/portfolio/technology/sub/sqlite">SQLite</a></li>
+                    <ul>
+                </div>
+            </div>
+            <div class="tech-content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
