@@ -308,41 +308,31 @@ template {
   display: none;
 }
 
-blockquote {
-  font-style: normal;
-  margin-left: 1em;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-left: 1em solid #FF2171;
-  border-right: 1em solid #FF2171;
-}
-
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid #0ff;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #00008B;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
 }
 
 pre {
-  padding: 0 1em;
-  border: 1px solid #ccc;
+  padding: none 1em;
+  border: 2px solid #0ff;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #0ff;
 }
 
 pre code {
   display: block;
-  margin: 0;
   padding: 1.1111em 0;
-  border: 0 none;
-  background: transparent;
+  background: #00008B;
   overflow-x: auto;
   line-height: 1.4;
+  font-size: inherit;
 }
 
 .landingpage {
@@ -364,9 +354,8 @@ pre code {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #FF2171;
   border-radius: 20px;
-  box-shadow: 4px 4px 2px #FF2171;
+  box-shadow: -12px -12px 8px #0ff;
   font-size: 28px;
 }
 
@@ -452,9 +441,8 @@ pre code {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #FF2171;
   border-radius: 20px;
-  box-shadow: 4px 4px 2px #FF2171;
+  box-shadow: -12px -12px 8px #0ff;
   font-size: 28px;
 }
 
@@ -12418,7 +12406,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #F5f5dc;
+  background-color: #404258;
 }
 
 * {
@@ -12491,7 +12479,7 @@ body {
   }
 }
 .title * {
-  color: #000;
+  color: #0ff;
 }
 
 .title p {
@@ -12507,16 +12495,17 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
+  border-top: 6px solid #0ff;
   margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: medium;
   font-style: italic;
+  color: #00FF52;
 }
 
 .footer a {
-  color: #222;
+  color: #00FF52;
 }
 
 .footer .social {
@@ -12539,7 +12528,11 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-size: 1.3em;
   line-height: 1.8rem;
-  color: #0f0e0e;
+  color: #0ff;
+}
+
+.nav a, .nav-toggle {
+  color: #00FF52;
 }
 
 p, td, th, li, dd {
@@ -12555,4 +12548,18 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   max-width: 100%;
+}
+
+a {
+  background-color: transparent;
+  color: #00FF52;
+}
+
+blockquote {
+  font-style: normal;
+  margin-left: 1em;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 1em solid #00FF52;
+  border-right: 1em solid #00FF52;
 }

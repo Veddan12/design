@@ -11,4 +11,10 @@ Social:
     - title: Link till instagram account.
       url: https://www.instagram.com/veddan.anardev/
       icon: fab fa-instagram
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

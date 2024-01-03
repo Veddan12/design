@@ -1,0 +1,37 @@
+.analys-sida {
+    display: grid;
+    gap: 1em 2em;
+    width: 750px;
+    height: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+}
+
+.analys-sida h1 {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -12px -12px 8px $border-top;
+    font-size: 28px;
+}
+
+@media (max-width: 767px) {
+    .analys-sida .colors {
+        grid-column: span 3;
+    }
+    
+    .analys-sida .load {
+        grid-column: span 3;
+    }
+
+    .analys-sida .design-principles {
+        grid-column: span 3;
+    }
+}

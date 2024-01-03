@@ -17,9 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid $block-color;
     border-radius: 20px;
-    box-shadow: 4px 4px 2px $block-color;
+    box-shadow: -12px -12px 8px $border-top;
     font-size: 28px;
 }
 
@@ -68,7 +67,7 @@
     .landingpage .sqlite {
         grid-column: span 3;
     }
-    
+
     .landingpage h1 {
         grid-column: span 3;
     }

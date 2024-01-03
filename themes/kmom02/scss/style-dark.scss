@@ -1,10 +1,9 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 
-@import 'blockquote';
-@import 'code';
-@import 'technologies';
-@import 'analys';
+@import 'code-dark';
+@import 'technologies-dark';
+@import 'analys-dark';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nova+Square&display=swap');
 
@@ -114,16 +113,17 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid $border-top;
+    border-top: 6px solid $border-top;
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: medium;
     font-style: italic;
+    color: $green-color-a;
 }
 
 .footer a {
-    color: $footer-color-text;
+    color: $green-color-a;
 }
 
 .footer .social {
@@ -147,7 +147,11 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-size: 1.3em;
     line-height: 1.8rem;
-    color: #0f0e0e;
+    color: $font-color;
+}
+
+.nav a, .nav-toggle {
+    color: $green-color-a;
 }
 
 p, td, th, li, dd {
@@ -163,4 +167,18 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+a {
+    background-color:transparent;
+    color: $green-color-a;
+}
+
+blockquote {
+    font-style: normal;
+    margin-left: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1.0em solid $green-color-a;
+    border-right: 1.0em solid  $green-color-a;
 }
