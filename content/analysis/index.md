@@ -8,12 +8,12 @@ Analysis
 =========
 
 <div class="box colors">
-    <a href="%base_url%?analysis/sub/colors">COLORS</a>
+    <a href="%base_url%?analysis/01_colors">COLORS</a>
 </div>
 <div class="box load">
-    <a href="%base_url%?analysis/sub/load">LOAD</a>
+    <a href="%base_url%?analysis/02_load">LOAD</a>
 </div>
 <div class="box design-principles">
-    <a href="%base_url%?analysis/sub/design_principles">DESIGN PRINCIPLES</a>
+    <a href="%base_url%?analysis/03_design_principles">DESIGN PRINCIPLES</a>
 </div>
 
