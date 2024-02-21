@@ -58,17 +58,6 @@ The New York Times
 
 <img src="%base_url%/image/nyt.png" style="height: 300px; width: 600px;"/>
 
-**Färgpalett**
-<table style="border-spacing: 4px; border-collapse: separate">
-<tr>
-<td style="height: 50px; width: 50px; background-color: #000000"></td>
-<td style="height: 50px; width: 50px; background-color: #121212"></td>
-<td style="height: 50px; width: 50px; background-color: #363636"></td>
-<td style="height: 50px; width: 50px; background-color: #5A5A5A"></td>
-<td style="height: 50px; width: 50px; background-color: #DFDFDF"></td>
-<td style="height: 50px; width: 50px; background-color: #FFFFFF"></td>
-</tr>
-</table>
 
 <br>
 
