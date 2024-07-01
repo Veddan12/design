@@ -1,0 +1,30 @@
+.bilder-sida {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1em;
+    clear: both;
+}
+
+/* .gallery-bilder {
+    padding: 0.8em;
+    background-color: #fff;
+    width: calc(33.3333333333% - 1em);
+}
+
+a {
+    background-color: white transparent;
+} */
+
+@media (max-width: 668px) {
+    .gallery-bilder {
+        width: calc(50% - 1em);
+    }
+}
+
+@media (max-width: 376px) {
+    .gallery-bilder {
+        width: 100%;
+    }
+}
